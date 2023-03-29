@@ -1,3 +1,3 @@
 # Code with OmidRashidifam (vanilla.js project)
 
-Hello, world!
+This is a university project that I have done.
