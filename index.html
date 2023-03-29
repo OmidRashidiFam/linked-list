@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <!-- meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- bootstrap 5 css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- title -->
+    <title>Omid's Linked List</title>
+  </head>
+  <body>
+    <!-- main ui -->
+    <div class="container mt-5">
+
+      <!-- add first and last -->
+      <div class="input-group mb-4">
+        <span class="input-group-text">Add</span>
+        <input
+          type="text"
+          class="form-control"
+          id="add-data"
+          placeholder="The Data that you want to add."
+        />
+        <button type="button" class="btn btn-outline-primary" id="btn-addFirst">
+          Add First
+        </button>
+        <button type="button" class="btn btn-outline-primary" id="btn-addLast">
+          Add Last
+        </button>
+      </div>
+
+      <!-- add index -->
+      <div class="input-group mb-4">
+        <span class="input-group-text">Add Index</span>
+        <input
+          type="text"
+          class="form-control"
+          id="addIndex-data"
+          placeholder="The Data that you want to add."
+        />
+        <input
+          type="text"
+          class="form-control"
+          id="addIndex-index"
+          placeholder="The Index that you want to add."
+        />
+        <button type="button" class="btn btn-outline-primary" id="btn-addIndex">
+          Add Index
+        </button>
+      </div>
+
+      <!-- remove index -->
+      <div class="input-group mb-4">
+        <span class="input-group-text">Remove Index</span>
+        <input
+          type="text"
+          class="form-control"
+          id="removeIndex-index"
+          placeholder="The Index that you want to remove."
+        />
+        <button
+          class="btn btn-outline-primary"
+          type="button"
+          id="btn-removeIndex"
+        >
+          Remove Index
+        </button>
+      </div>
+
+      <!-- remove btns -->
+      <div class="btn-group mb-4 mx-5  d-flex justify-content-center">
+        <button type="button" class="btn btn-outline-primary" id="btn-removeFirst">Remove First</button>
+        <button type="button" class="btn btn-outline-primary" id="btn-clearList">Clear List</button>
+        <button type="button" class="btn btn-outline-primary" id="btn-removeLast">Remove Last</button>
+      </div>
+
+      <!-- get index -->
+      <div class="input-group mb-4">
+        <span class="input-group-text">Get Index</span>
+        <input
+          type="text"
+          class="form-control"
+          id="getAt-index"
+          placeholder="The Index that you want to get."
+        />
+        <button type="button" class="btn btn-outline-primary" id="btn-getAt">
+          Get At
+        </button>
+      </div>
+
+      <!-- remove btns -->
+      <div class="btn-group  d-flex justify-content-center">
+        <button type="button" class="btn btn-outline-primary" id="btn-getMin">Get Min</button>
+        <button type="button" class="btn btn-outline-primary" id="btn-printListData">Print List Data</button>
+        <button type="button" class="btn btn-outline-primary" id="btn-getMax">Get Max</button>
+      </div>
+    </div>
+
+    <!-- bootstrap 5 scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- my script -->
+    <script src="./index.js"></script>
+  </body>
+</html>
